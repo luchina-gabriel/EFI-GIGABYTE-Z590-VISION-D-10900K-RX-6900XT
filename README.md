@@ -49,4 +49,4 @@ Complete hardware specs:
 
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
-- [BASE EFI](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-10THGEN-COMET-LAKE)
+- [BASE EFI](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-10THGEN-COMET-LAKE) for 10th Intel Gen - Comet Lake
