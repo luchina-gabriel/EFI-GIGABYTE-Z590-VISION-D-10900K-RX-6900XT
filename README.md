@@ -1,6 +1,6 @@
 # Hackintosh: Gigabyte Z590 Vision D + i9 10900K + RX 6900 XT
 
-Intel 10900k, Z590 Vision D, RX 6900XT Nitro+
+![AboutThisMac](https://user-images.githubusercontent.com/23700365/135357946-539d1748-5f4a-4e8e-befb-b2119a552ab3.png)
 
 **Latest working macOS**: 11.6
 
