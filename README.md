@@ -15,15 +15,6 @@ Complete hardware specs:
 - 32GB RAM - 3400 MHz DDR4
 - SSD NVME Gen4 - Seagate FireCuda 520 2Tb
 
-**SMBIOS**: iMacPro1,1
-
-The system dual boots Windows 10
-
-## Get it running
-0. Make sure to update your BIOS, disable VT-d, disable CSM support and enable XHCI Hand-off (for Airdrop/Continuity/Sidecar)
-1. Generate a new serial number, motherboard id, ROM (that's your mobo's mac address without dots) and SMUUID (make sure serial number is **invalid** in order to iMessage/Facetime to work) ([how?](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo) + [this tool](https://mackie100projects.altervista.org/download-opencore-configurator/))
-2. Boot the new macOS partition
-
 ## What works
 - macOS Big Sur, macOS Catalina and macOS Monterey
 - WiFi and Bluetooth + Airdrop + Sidecar + Continuity
@@ -49,17 +40,13 @@ The system dual boots Windows 10
 - VirtualSMC.kext
 - WhateverGreen.kext
 
-## Drivers used:
-- OpenCanopy.efi (required by OpenCore)
-- OpenRuntime.efi (required by OpenCore)
-- HFSPlus (optional, make HFS drives discoverable in OpenCore bootloader if you want to use Mojave or older macOS versions)
-
 ## Geekbench Results:
-https://browser.geekbench.com/v5/cpu/10149829
+- https://browser.geekbench.com/v5/cpu/10149829
 <br>
-https://browser.geekbench.com/v5/compute/3451843
+- https://browser.geekbench.com/v5/compute/3451843
 <br>
-https://browser.geekbench.com/v5/compute/3451844
+- https://browser.geekbench.com/v5/compute/3451844
 
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
+- [BASE EFI](https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-10THGEN-COMET-LAKE)
