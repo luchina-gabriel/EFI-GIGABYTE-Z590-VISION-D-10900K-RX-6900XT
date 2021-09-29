@@ -42,9 +42,7 @@ Complete hardware specs:
 
 ## Geekbench Results:
 - https://browser.geekbench.com/v5/cpu/10149829
-<br>
 - https://browser.geekbench.com/v5/compute/3451843
-<br>
 - https://browser.geekbench.com/v5/compute/3451844
 
 ## Thanks/Credits
