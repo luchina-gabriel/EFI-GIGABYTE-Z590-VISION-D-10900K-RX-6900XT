@@ -2,9 +2,9 @@
 
 ![AboutThisMac](https://user-images.githubusercontent.com/23700365/135357946-539d1748-5f4a-4e8e-befb-b2119a552ab3.png)
 
-**Latest working macOS**: 11.6
+**Latest working macOS**: 12.0
 
-**Current OpenCore**: 0.7.3
+**Current OpenCore**: 0.7.4
 
 Complete hardware specs:
 - Intel 10900k @ stock

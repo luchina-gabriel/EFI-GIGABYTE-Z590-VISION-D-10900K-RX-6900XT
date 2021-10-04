@@ -44,14 +44,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-RHUB.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-RHUB.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-SBUS-MCHC.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -550,7 +542,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -630,7 +622,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v agdpmod=pikera dk.e1000=0</string>
+				<string>agdpmod=pikera dk.e1000=0</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -799,6 +791,8 @@
 				<string>AudioDxe.efi</string>
 				<key>Arguments</key>
 				<string></string>
+				<key>Comment</key>
+				<string>Este driver funciona para o barulho do Chime na hora do boot</string>
 			</dict>
 			<dict>
 				<key>Enabled</key>
@@ -807,6 +801,8 @@
 				<string>btrfs_x64.efi</string>
 				<key>Arguments</key>
 				<string></string>
+				<key>Comment</key>
+				<string>btrfs_x64.efi</string>
 			</dict>
 			<dict>
 				<key>Enabled</key>
@@ -815,6 +811,8 @@
 				<string>ext4_x64.efi</string>
 				<key>Arguments</key>
 				<string></string>
+				<key>Comment</key>
+				<string>ext4_x64.efi</string>
 			</dict>
 			<dict>
 				<key>Enabled</key>
@@ -823,6 +821,8 @@
 				<string>HfsPlus.efi</string>
 				<key>Arguments</key>
 				<string></string>
+				<key>Comment</key>
+				<string>HfsPlus.efi</string>
 			</dict>
 			<dict>
 				<key>Enabled</key>
@@ -831,6 +831,8 @@
 				<string>OpenCanopy.efi</string>
 				<key>Arguments</key>
 				<string></string>
+				<key>Comment</key>
+				<string>OpenCanopy.efi</string>
 			</dict>
 			<dict>
 				<key>Enabled</key>
@@ -839,6 +841,8 @@
 				<string>OpenLinuxBoot.efi</string>
 				<key>Arguments</key>
 				<string></string>
+				<key>Comment</key>
+				<string>OpenLinuxBoot.efi</string>
 			</dict>
 			<dict>
 				<key>Enabled</key>
@@ -847,6 +851,8 @@
 				<string>OpenRuntime.efi</string>
 				<key>Arguments</key>
 				<string></string>
+				<key>Comment</key>
+				<string>OpenRuntime.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
