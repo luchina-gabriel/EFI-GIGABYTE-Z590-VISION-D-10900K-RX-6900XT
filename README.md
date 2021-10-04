@@ -3,16 +3,16 @@
 ![AboutThisMac](https://user-images.githubusercontent.com/23700365/135357946-539d1748-5f4a-4e8e-befb-b2119a552ab3.png)
 
 **Latest working macOS**: 12.0
-
+<br>
 **Current OpenCore**: 0.7.4
 
-Complete hardware specs:
-- Intel 10900k @ stock
+## Complete hardware specs
+- Intel i9 10900k @ stock
 - Gigabyte Z590 Vision D
 - WC NZXT X73
-- AMD Radeon RX 6900 XT OC SE Nitro+
+- AMD Radeon RX 6900 XT OC SE Nitro+ (PN 11308-03-20G)
 - Fenvi M2 BCM94360NG - OOB
-- 32GB RAM - 3400 MHz DDR4
+- 32GB RAM Corsair Dominator - 3400 MHz DDR4
 - SSD NVME Gen4 - Seagate FireCuda 520 2Tb
 
 ## What works
