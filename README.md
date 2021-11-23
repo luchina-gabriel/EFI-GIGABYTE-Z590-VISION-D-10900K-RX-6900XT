@@ -4,7 +4,7 @@
 
 **Latest working macOS**: 12.0
 <br>
-**Current OpenCore**: 0.7.4
+**Current OpenCore**: 0.7.5
 
 ## Complete hardware specs
 - Intel i9 10900k @ stock
