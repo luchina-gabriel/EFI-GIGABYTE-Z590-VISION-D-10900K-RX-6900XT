@@ -33,7 +33,6 @@
 ## Kexts used:
 - Lilu.kext
 - NVMeFix.kext
-- RestrictEvents.kext
 - SMCProcessor.kext
 - SMCSuperIO.kext
 - USBMap.kext
