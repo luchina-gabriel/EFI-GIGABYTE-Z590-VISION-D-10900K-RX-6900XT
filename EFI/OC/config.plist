@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key># EFI for GB Z590 Vision D - OC 074 - macOS 10.14 ~ 12.0</key>
+	<key># EFI for GB Z590 Vision D - OC 076 - macOS 10.14 ~ 12.1</key>
 	<string></string>
 	<key># BY: https://luchina.com.br</key>
 	<string></string>
@@ -593,8 +593,6 @@
 			<dict>
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
-				<key>UIScale</key>
-				<data>AQ==</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -782,26 +780,6 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>btrfs_x64.efi</string>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>btrfs_x64.efi</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>ext4_x64.efi</string>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>ext4_x64.efi</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
 				<string>HfsPlus.efi</string>
 				<key>Arguments</key>
 				<string></string>
@@ -817,16 +795,6 @@
 				<string></string>
 				<key>Comment</key>
 				<string>OpenCanopy.efi</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>OpenLinuxBoot.efi</string>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>OpenLinuxBoot.efi</string>
 			</dict>
 			<dict>
 				<key>Enabled</key>
@@ -874,6 +842,8 @@
 			<false/>
 			<key>ProvideConsoleGop</key>
 			<true/>
+			<key>ReconnectGraphicsOnConnect</key>
+			<false/>
 			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReplaceTabWithSpace</key>
@@ -884,6 +854,8 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
+			<key>UIScale</key>
+			<integer>0</integer>
 			<key>UgaPassThrough</key>
 			<false/>
 		</dict>
@@ -934,6 +906,8 @@
 			<false/>
 			<key>EnableVectorAcceleration</key>
 			<true/>
+			<key>EnableVmx</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>ForgeUefiSupport</key>
